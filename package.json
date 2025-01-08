@@ -1,5 +1,5 @@
 {
-  "name": "blackbeard-extension",
+  "name": "stackassist",
   "private": "true",
   "description": "A basic example of a Copilot Extension",
   "scripts": {
@@ -9,6 +9,11 @@
   "type": "module",
   "dependencies": {
     "@octokit/core": "^6.1.2",
-    "express": "^4.19.2"
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
